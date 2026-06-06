@@ -3,7 +3,7 @@ var frameworks = "a11yana,almond,axist,bahunya,bamboo,bare,base,basic,bolt,bonsa
 add_switcher();
 
 function switch_css(css) {
-  css_link.href = "https://dohliam.github.io/dropin-minimal-css/min/" + css + ".min.css";
+  css_link.href = "https://dedicatedcloud.github.io/dropin-minimal-css/min/" + css + ".min.css";
 }
 
 function capitalize(s) {
@@ -42,7 +42,7 @@ function add_switcher() {
     css_link = document.createElement('link');
     css_link.rel="stylesheet";
     css_link.type="text/css";
-    css_link.href="https://dohliam.github.io/dropin-minimal-css/min/" + frameworks.split(",")[0] + ".min.css";
+    css_link.href="https://dedicatedcloud.github.io/dropin-minimal-css/min/" + frameworks.split(",")[0] + ".min.css";
     head.appendChild(css_link);
   }
 
